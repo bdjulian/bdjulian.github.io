@@ -1,8 +1,3 @@
----
-What does this do
-
----
-
 Here lies my resume page
 
 Link to main page to prevent getting stuck
