@@ -1,4 +1,4 @@
 Here lies my resume page
 
 Link to main page to prevent getting stuck
-[Link](bdjulian.github.io/blob/main/index.md)
+[Link](https://github.com/bdjulian/bdjulian.github.io/blob/main/index.md)
