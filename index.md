@@ -27,4 +27,6 @@ Syntax highlighted code block
 - [ ] pass datacom
 - [ ] ask dave if he is gonna let me slide with a P+
 
+These links are here for me to learn at the moment
 [Link](bdjulian.github.io/blob/main/Projects/Empty.md)
+[Link](bdjulian.github.io/blob/main/Resume/index.md)
