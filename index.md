@@ -29,5 +29,3 @@ Syntax highlighted code block
 
 These links are here for me to learn at the moment
 [Link](bdjulian.github.io/blob/main/Projects/Empty.md)
-
-[Link](bdjulian.github.io/blob/main/Resume/index.md)
