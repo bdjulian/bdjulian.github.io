@@ -28,3 +28,5 @@ Syntax highlighted code block
 - [ ] ask dave if he is gonna let me slide with a P+
 
 [Project link](Projects/index.md)
+
+[Resume link](Resume/index.md)
