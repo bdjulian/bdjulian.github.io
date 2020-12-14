@@ -27,3 +27,4 @@ Syntax highlighted code block
 - [ ] pass datacom
 - [ ] ask dave if he is gonna let me slide with a P+
 
+[a relative link](/main/Projects/index.md)
