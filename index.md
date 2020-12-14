@@ -26,3 +26,5 @@ Syntax highlighted code block
 - [ ] Put "A study guide to an..." on website/github
 - [ ] pass datacom
 - [ ] ask dave if he is gonna let me slide with a P+
+
+[Link](bdjulian.github.io/Projects)
