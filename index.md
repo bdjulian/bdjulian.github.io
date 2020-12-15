@@ -27,6 +27,11 @@ Syntax highlighted code block
 - [ ] pass datacom
 - [ ] ask dave if he is gonna let me slide with a P+
 
+### True to-do list
+- [ ] Read the Sherlock paper, interpret and take notes similar to "An Empirical Comparison..."
+- [ ] Re-read the bible textbook concurrently with notes already taken
+- [ ] Do some form of machine learning practice. scikit-learn?
+
 [Project link](Projects/index.md)
 
 [Resume link](Resume/index.md)
