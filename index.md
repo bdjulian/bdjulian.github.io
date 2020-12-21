@@ -21,11 +21,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-### I don't really understand all of this just yet
-- [x] Make a website*
-- [ ] Put "A study guide to an..." on website/github
-- [ ] pass datacom
-- [ ] ask dave if he is gonna let me slide with a P+
 
 ### True to-do list
 - [ ] Read the Sherlock paper, interpret and take notes similar to "An Empirical Comparison..."
