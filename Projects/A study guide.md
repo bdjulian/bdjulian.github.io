@@ -1,5 +1,6 @@
-A study guide to “An Empirical comparison of botnet detection methods”
-Thank you, Dr. David Eargle, for your editing and input
+<p style="text-align: center">A study guide to “An Empirical comparison of botnet detection methods”</p>
+<p style="text-align: center">Thank you, Dr. David Eargle, for your editing and input</p>
+
 This document is a study guide for “An Empirical comparison of botnet detection methods” (Garcia et al 2014). A website for the project is available (https://www.stratosphereips.org/datasets-ctu13), and python source code for analyses they ran (https://sourceforge.net/projects/botnetdetectorscomparer/).
 Garcia et al. (2014) discusses some concepts that may be unfamiliar to non-domain experts. For example, it would be difficult to extract meaningful insights without first basic understanding of the following:
 -	Networking, understanding of how devices talk to each other is mandatory to move forward. Having experience with packet capture programs or the structure of other traffic diagnostics will help.
