@@ -27,6 +27,8 @@ Syntax highlighted code block
 - [ ] Re-read the bible textbook concurrently with notes already taken
 - [ ] Do some form of machine learning practice. scikit-learn?
 
-[Project link](Projects/index.md)
+[Projects link](Projects/index.md)
+Here are my current projects to include original works and derivative works.
 
-[Resume link](Resume/index.md)
+[Resume link and about me](Resume/index.md)
+A little about me and my untailored resume.

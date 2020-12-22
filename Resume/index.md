@@ -1,5 +1,6 @@
-# Brandon Dean Julian
-## About me
+# Resume and About Me
+## Brandon Dean Julian
+### About me
 Marketing and Information management graduate. Current Data Analysis masters student at University of Colorado Boulder, FBI Honors Intern, accomplished collegiate rower.
 
 
