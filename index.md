@@ -8,7 +8,7 @@ Below is a code block that I wish to keep as an example while I continue learnin
 Syntax highlighted code block
 
 # Header 1
-## Header 2 rmbme
+## Header 2
 ### Header 3
 
 - Bulleted
