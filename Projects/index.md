@@ -6,5 +6,4 @@ published: true
 regenerate: true
 
 ---
-
-Code stolen from prof. D. Eargle
+Here lie links to current projects, some are works in progress, some are "finished"
