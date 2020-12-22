@@ -1,3 +1,6 @@
+# Garcia et al 2014 Study Guide
+<br>
+
 <p style="text-align: center">A study guide to “An Empirical comparison of botnet detection methods”</p>
 <p style="text-align: center">Thank you, Dr. David Eargle, for your editing and input</p>
 
