@@ -1,7 +1,4 @@
-## Welcome to my website? At least this way I no longer need to squat a domain.
-
-### Markdown
-#### Will I no longer write documents in word?
+## Home
 
 Below is a code block that I wish to keep as an example while I continue learning
 ```markdown
@@ -26,6 +23,7 @@ Syntax highlighted code block
 - [ ] Read the Sherlock paper, interpret and take notes similar to "An Empirical Comparison..."
 - [ ] Re-read the bible textbook concurrently with notes already taken
 - [ ] Do some form of machine learning practice. scikit-learn?
+- [ ] Keep the website rolling
 
 [Projects link](Projects/index.md) <br />
 Here are my current projects to include original works and derivative works.
