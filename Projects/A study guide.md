@@ -1,5 +1,5 @@
 # Garcia et al 2014 Study Guide
-[Link to home](https://bdjulian.github.io/index.md)
+[Link to home](https://bdjulian.github.io/)
 <br>
 
 <p style="text-align: center">A study guide to “An Empirical comparison of botnet detection methods”</p>
