@@ -7,7 +7,7 @@
 Thank you, Dr. David Eargle, for your editing and input
 {: style='text-align: center'}
 
-This document is a study guide for “An Empirical comparison of botnet detection methods” (Garcia et al 2014). A website for the project is available (https://www.stratosphereips.org/datasets-ctu13), and python source code for analyses they ran (https://sourceforge.net/projects/botnetdetectorscomparer/).
+This document is a study guide for “An Empirical comparison of botnet detection methods” (Garcia et al 2014). A website for the project is available [here](https://www.stratosphereips.org/datasets-ctu13), and python source code for analyses they ran can be found at <https://sourceforge.net/projects/botnetdetectorscomparer/>.
 Garcia et al. (2014) discusses some concepts that may be unfamiliar to non-domain experts. For example, it would be difficult to extract meaningful insights without first basic understanding of the following:
 -	Networking, understanding of how devices talk to each other is mandatory to move forward. Having experience with packet capture programs or the structure of other traffic diagnostics will help.
 -	Botnets, how they can operate, and the difference between benign (normal) and malicious (botnet) traffic
@@ -109,7 +109,7 @@ The language here isn’t too bad. They want people to constantly work from the 
 – Possibly people selling botnet detection methods They do not specify their dataset by name, so this comment can still apply.
 
 #### “To implement this methodology we created and published a new tool called Botnet detectors Comparer” (Section 7.1 page 13)
-This tool provides a final evaluation of your method against the dataset they created and creates a confusion matrix using the evaluation. It also computes the new error metrics they discuss in the next section, where they modify the classical ML model evaluation metrics (TP, FP, etc) to incorporate time. An important modification of evaluation when response time is essential to security.  
+This tool provides a final evaluation of your method against the dataset they created and creates a confusion matrix using the evaluation. It also computes the new error metrics they discuss in the next section, where they modify the classical ML model evaluation metrics (TP, FP, etc) to incorporate time. An important modification of evaluation when response time is essential to security.
 
 ## Section 7.2 New Error Metric
 #### “The second step was to migrate from a NetFlow-based detection to an IP-based detection. The classical error values (TP, FP, TN, FN) were redefined as follows:”
