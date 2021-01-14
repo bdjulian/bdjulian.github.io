@@ -7,7 +7,7 @@
 Thank you, Dr. David Eargle, for your editing and input
 {: style='text-align: center'}
 
-This document is a study guide for “An Empirical comparison of botnet detection methods” (Garcia et al 2014). A website for the project is available [here](https://www.stratosphereips.org/datasets-ctu13), and python source code for analyses they ran can be found at <https://sourceforge.net/projects/botnetdetectorscomparer/>.
+This document is a study guide for “An Empirical comparison of botnet detection methods” (Garcia et al 2014) ([Google Scholar link, includes a PDF](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C6&q=An+Empirical+comparison+of+botnet+detection+methods&btnG=)). A website for the project is available [here](https://www.stratosphereips.org/datasets-ctu13), and python source code for analyses they ran can be found at <https://sourceforge.net/projects/botnetdetectorscomparer/>.
 Garcia et al. (2014) discusses some concepts that may be unfamiliar to non-domain experts. For example, it would be difficult to extract meaningful insights without first basic understanding of the following:
 -	Networking, understanding of how devices talk to each other is mandatory to move forward. Having experience with packet capture programs or the structure of other traffic diagnostics will help.
 -	Botnets, how they can operate, and the difference between benign (normal) and malicious (botnet) traffic
