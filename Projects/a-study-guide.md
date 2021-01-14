@@ -11,7 +11,9 @@ Garcia et al. (2014) discusses some concepts that may be unfamiliar to non-domai
 -	Botnets, how they can operate, and the difference between benign (normal) and malicious (botnet) traffic
 -	Machine learning as well as model evaluation metrics. One of the papers main contributions is an adaptation to classical model evaluation that will be difficult to understand without grasp of the fundamentals.
 
-This document is structured as follows: First, a section with important preliminary concepts is included. Following this, each section-header in this document refers to a specific section of Garcia et al. (2014), with subsection headers in this document being either direct quotes, or broad questions that a reader may have while reading a particular section of Garcia et al. (2014). Preliminary information
+This document is structured as follows: First, a section with important preliminary concepts is included. Following this, each section-header in this document refers to a specific section of Garcia et al. (2014), with subsection headers in this document being either direct quotes, or broad questions that a reader may have while reading a particular section of Garcia et al. (2014).
+
+## Preliminary information
 The material in this section covers background information on botnets, packet captures (pcaps), and netflows.
 
 #### What is a botnet?
