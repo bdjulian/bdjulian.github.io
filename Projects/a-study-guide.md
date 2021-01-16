@@ -1,17 +1,19 @@
 # Garcia et al 2014 Study Guide
-[Link to home](https://bdjulian.github.io/)
-<br>
 
-<p style="text-align: center">A study guide to “An Empirical comparison of botnet detection methods”</p>
-<p style="text-align: center">Thank you, Dr. David Eargle, for your editing and input</p>
+<center>A study guide to “An Empirical comparison of botnet detection methods”</center>
 
-This document is a study guide for “An Empirical comparison of botnet detection methods” (Garcia et al 2014). A website for the project is available (https://www.stratosphereips.org/datasets-ctu13), and python source code for analyses they ran (https://sourceforge.net/projects/botnetdetectorscomparer/).
+Thank you, Dr. David Eargle, for your editing and input
+{: style='text-align: center'}
+
+This document is a study guide for “An Empirical comparison of botnet detection methods” (Garcia et al 2014) ([Google Scholar link, includes a PDF](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C6&q=An+Empirical+comparison+of+botnet+detection+methods&btnG=)). A website for the project is available [here](https://www.stratosphereips.org/datasets-ctu13), and python source code for analyses they ran can be found at <https://sourceforge.net/projects/botnetdetectorscomparer/>.
 Garcia et al. (2014) discusses some concepts that may be unfamiliar to non-domain experts. For example, it would be difficult to extract meaningful insights without first basic understanding of the following:
 -	Networking, understanding of how devices talk to each other is mandatory to move forward. Having experience with packet capture programs or the structure of other traffic diagnostics will help.
 -	Botnets, how they can operate, and the difference between benign (normal) and malicious (botnet) traffic
 -	Machine learning as well as model evaluation metrics. One of the papers main contributions is an adaptation to classical model evaluation that will be difficult to understand without grasp of the fundamentals.
 
-This document is structured as follows: First, a section with important preliminary concepts is included. Following this, each section-header in this document refers to a specific section of Garcia et al. (2014), with subsection headers in this document being either direct quotes, or broad questions that a reader may have while reading a particular section of Garcia et al. (2014). Preliminary information
+This document is structured as follows: First, a section with important preliminary concepts is included. Following this, each section-header in this document refers to a specific section of Garcia et al. (2014), with subsection headers in this document being either direct quotes, or broad questions that a reader may have while reading a particular section of Garcia et al. (2014).
+
+## Preliminary information
 The material in this section covers background information on botnets, packet captures (pcaps), and netflows.
 
 #### What is a botnet?
@@ -107,7 +109,7 @@ The language here isn’t too bad. They want people to constantly work from the 
 – Possibly people selling botnet detection methods They do not specify their dataset by name, so this comment can still apply.
 
 #### “To implement this methodology we created and published a new tool called Botnet detectors Comparer” (Section 7.1 page 13)
-This tool provides a final evaluation of your method against the dataset they created and creates a confusion matrix using the evaluation. It also computes the new error metrics they discuss in the next section, where they modify the classical ML model evaluation metrics (TP, FP, etc) to incorporate time. An important modification of evaluation when response time is essential to security.  
+This tool provides a final evaluation of your method against the dataset they created and creates a confusion matrix using the evaluation. It also computes the new error metrics they discuss in the next section, where they modify the classical ML model evaluation metrics (TP, FP, etc) to incorporate time. An important modification of evaluation when response time is essential to security.
 
 ## Section 7.2 New Error Metric
 #### “The second step was to migrate from a NetFlow-based detection to an IP-based detection. The classical error values (TP, FP, TN, FN) were redefined as follows:”
