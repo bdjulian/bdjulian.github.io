@@ -16,3 +16,4 @@ My first ever attempt at creating something. The idea was to take a complex pape
 
 Here is a jupyter notebook where I proceed through extremely simple modeling processes with a focus on model evaluation to include Partial Dependence Plots and SHAP Values.
 It is written in a casual explanatory tone.
+The notebook pulls the Spambase dataset from openML so data is not needed locally to run the notebook.
