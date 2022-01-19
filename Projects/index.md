@@ -6,7 +6,7 @@ published: true
 regenerate: true
 
 ---
-Here lie links to current projects, some are works in progress, some are "finished"
+Here lie links to current projects, some are works in progress, some are more finished but still in progress.
 
 [Garcia et al 2014](a-study-guide.md)
 
