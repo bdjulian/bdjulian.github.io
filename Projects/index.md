@@ -6,8 +6,6 @@ published: true
 regenerate: true
 
 ---
-Here lie links to current projects, some are works in progress, some are more finished but still in progress.
-
 [Garcia et al 2014](a-study-guide.md)
 
 My first ever attempt at creating something. The idea was to take a complex paper that had important concepts and make those concepts understandable to the non-expert with a little bit of guidance and clarification.
