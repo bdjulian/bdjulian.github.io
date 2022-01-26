@@ -27,6 +27,18 @@ Lets say you are very confident in your ability to absolutely brick your best fr
 
 With this bet, you have already assigned a probability your belief in your ability to beat your friend in a game of Smash. Lets work through it.
 
-The bet actually fills out an equation that will seem familiar
+500 to 10, this is the bet you made to your friend, and is actually the equation for odds. _m_ to _n_ or _m_/_n_.
 
-P(H<sub>a</sub>)
+>Your odds represent how many times more strongly you believe there _isn’t_ an article than you believe there _is_ an article. (Kurt 38)
+
+In our case, you believe:  
+P(H<sub>I will win the Smash match</sub>) = 500, P(H<sub>My friend will win the Smash match</sub>) = 10 = 500/10 = 50
+
+You believe you are _fifty_ time more likely to win than lose. And now we can assign a probability to this...
+
+If you believe the P(H<sub>I will win the Smash match</sub>) is 50x more likely than P(H<sub>My friend will win the Smash match</sub>) (lets switch to A and B to save space), then you believe P(H<sub>a</sub>) = 50 * P(H<sub>b</sub>). And since we _know_ from above that the probability of something happening and the probability of something not happening must add to 1, in this case that P(H<sub>a</sub>)+¬P(H<sub>a</sub>) = 1. And here the ¬P(H<sub>a</sub>) is just P(H<sub>b</sub>), _now_ we can get to the good stuff, algebra.
+
+
+***
+
+[Bayesian Statistics, The Fun Way, by Will Kurt](https://nostarch.com/learnbayes)
