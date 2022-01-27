@@ -36,7 +36,7 @@ P(H<sub>I will win the Smash match</sub>) = 500, P(H<sub>My friend will win the 
 
 You believe you are _fifty_ time more likely to win than lose. And now we can assign a probability to this...
 
-If you believe the P(H<sub>I will win the Smash match</sub>) is 50x more likely than P(H<sub>My friend will win the Smash match</sub>) (lets switch to A and B to save space), then you believe P(H<sub>a</sub>) = 50 * P(H<sub>b</sub>). And since we _know_ from above that the probability of something happening and the probability of something not happening must add to 1, in this case that P(H<sub>a</sub>)+¬P(H<sub>a</sub>) = 1. And here the ¬P(H<sub>a</sub>) is just P(H<sub>b</sub>), _now_ we can get to the good stuff, algebra.
+If you believe the P(H<sub>I will win the Smash match</sub>) is 50x more likely than P(H<sub>My friend will win the Smash match</sub>) (lets switch to A and B to save space), then you believe P(H<sub>a</sub>) = 50 * P(H<sub>b</sub>). And since we _know_ from above that the probability of something happening and the probability of something not happening must add to 1, P(H<sub>a</sub>)+¬P(H<sub>a</sub>) = 1. And here the ¬P(H<sub>a</sub>) is just P(H<sub>b</sub>), _now_ we can get to the good stuff, algebra.
 
 
 ***
