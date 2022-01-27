@@ -9,6 +9,8 @@
 
   - LogOdds, is the log(odds). It is used because regular odds are on a scale from 0 - positive infinity. Intuitively this makes sense, odds ratios deal with real instances (games, diagnoses, conditions), so there can't be less than 0 instances in a given scenario. -1 wins to 4 losses out of 5 games makes no sense. But 1 win vs. possibly infinite losses is totally plausible. An example from popular sports... out of 72 played seasons, the Cleveland Browns have had **_0_** superbowl appearances. So their odds of appearing can be expressed as 0/72, or 0. While their odds of not making an apperance can be expressed as 72/0 which is actually expressed as positive infinity when talking about odds. I need a better example here.
 
+  - Probability, _conditional probability_, conditional probability = p(A|B) = probability of A given _condition_ B 
+
 - Logistic regression and its predictions in logOdds
 
 - Naive Bayes and its importance
@@ -27,4 +29,4 @@
   - Here we have created a series of the unique values seen in the column 'FabricColor', its index is each of the unique values and it has one column containing the unique values we want. It is also named the column we had transformed, and we gotta rename it for the next step.
     - df.join(fbc, on='FabricColor')
   - We join it back onto our dataframe we created it from using .join _this is why we renamed it_. If it had retained its original name 'FabricColor' it would have thrown an error when we tried to reference the dataframes['FabricColor'] in the .join method.
-- 
+-
