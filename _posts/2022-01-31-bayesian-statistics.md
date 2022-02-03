@@ -21,7 +21,7 @@ terms, if the probability of getting heads in a coin toss is 0.5, that means we
 are equally unsure about whether we’ll get heads or tails. For problems like
 coin tosses, both frequentist and Bayesian approaches seem reasonable, but
 when you’re quantifying your belief that your favorite candidate will win the
-next election, the Bayesian interpretation makes much more sense. (Kurt 21)
+next election, the Bayesian interpretation makes much more sense. (Kurt xix)
 
 Kurt does a pretty good job at introducing Bayesian statistics, and how the general thought process of Bayesian stats in pretty in tune with normal logical reasoning.
 I really like the example of an election, there are no real previous elections to help predict the outcome here (unless this is a second term something) but for examples sake, we'd be predicting the outcome of an election based on all the prior data collected during campaigns. Things like policies, primaries, T.V. appearances, pop culture knowledge, etc. would all influence the conditional probability of an election type event. This example, for me, clearly separates what is a Bayesian thought process from a frequentist problem. In election type events there may not always be a frequency distribution or repeated events to pull a probability from.
@@ -39,7 +39,7 @@ There must be an explanation for this choice of explanation -
 mean false. Likewise, saying “not false” means true. We want probability to
 work the same way, so we make sure that the probability of X and the negation of the probability of X sum to 1 (in other words, values are either X, or
 not X). We can express this using the following equation:
-P(X)+¬P(X) = 1 (Kurt 38)
+P(X)+¬P(X) = 1 (Kurt 14)
 - ¬ in this equation means the negation
 
 Kurt continues on about the fundamentals of this math P(X)+¬P(X) = 1 when really it seems easier to just say that the probability of something happening and the probability of something not happening must add to 1. Either my favorite actress wins the best actress Oscar or she doesn't. The sample is either predicted class A or class B... but perhaps the concept of negation carries over past this textbook.
@@ -54,7 +54,7 @@ With this bet, you have already assigned a probability your belief in your abili
 
 500 to 10, this is the bet you made to your friend, and is actually the equation for odds. _m_ to _n_ or _m_/_n_.
 
->Your odds represent how many times more strongly you believe there _isn’t_ an article than you believe there _is_ an article. (Kurt 38)
+>Your odds represent how many times more strongly you believe there _isn’t_ an article than you believe there _is_ an article. (Kurt 14)
 
 In our case, you believe:  
 P(H<sub>I will win the Smash match</sub>) = 500, P(H<sub>My friend will win the Smash match</sub>) = 10 = 500/10 = 50
@@ -98,6 +98,35 @@ and flipping tails is also event B we get...
 P(A, B) = P(Flipping Tails, Flipping Tails) =  
 P(Flipping Tails, Flipping Tails) =  P(Flipping Tails) * P(Flipping Tails) =  
 P(Flipping Tails, Flipping Tails) = .5 * .5 = .25 = 1/4. Perfect.
+
+P(A,B) = P(A)*P(B)
+
+## Probability and the Sum Rule
+
+For mutually exclusive events, meaning if one occurs the other cannot. Then the probability of
+A _or_ (not _and_) B occurring is P(A)+P(B).  
+
+An example of mutually exclusive events is rolling a 1 or a 2 on a six sided die in 1 roll.
+You can either roll a 1 or a 2 on one die, in one roll, not both.  
+
+Combining probabilities for mutually exclusive events is very easy and intuitive.
+Now finding the combined probability of non-mutually-exclusive events requires a little more brain activation.  
+
+>...we know that P(heads) = 1/2 and P(six) = 1/6, it
+might initially seem plausible that the probability of either of these events
+is simply 4/6. It becomes obvious that this doesn’t work, however, when we
+consider the possibility of either flipping a heads or rolling a number less
+than 6. Because P(less than six) = 5/6, adding these probabilities together
+gives us 8/6, which is greater than 1! (Kurt 28)
+
+When adding together probabilities for non-mutually-exclusive events, we incorrectly double
+count the events in which _both_ things happen. So in order to account for this, we must remove it.
+Good thing we know that the probability of two events occurring is P(A,B) = P(A)*P(B). If we apply
+this to our sum rule for mutually exclusive events, we arrive at the equation for the sum rule for non-mutually-exclusive events.  
+
+P(A or B) = P(A) + P(B) - P(A,B)
+
+
 
 ***
 
